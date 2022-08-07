@@ -8,10 +8,10 @@ This repository is aiming to be template repository for every Python project.
 
 ## Considerations
 
-1. When a potential clients or contributors visit on your project they see following things
-    * Repository name
-    * Repository description
-    * Rest of files (codes, licence and etc)
+When a potential clients or contributors visit on your project they see following things
+* Repository name
+* Repository description
+* Rest of files (codes, licence and etc)
 
 ## Must Have
 
@@ -36,6 +36,9 @@ This repository is aiming to be template repository for every Python project.
 ## Footnotes
 
 1. GitHub introduced default community health files to increase interaction of maintainer and contributor. Whenever new contributor want to contribute on the project they having a lot of questions. A lot of how and why questions. Contributors easily can integrate by following this files and contribute. From 1st item to 5th item are related GitHub health files. Please check out the files.
+
 2. **First code written in the early 1950s by John Mauchly** and those times nobody was not looking for a robust code. The time we are living needs more attention and quality. I explored that after my deep research almost every company following style guides and hooks to make sure everything is going well. If you use style guide and pre-commit hooks you will be writing better quality codes.
+
 3. DevOps is the combination of cultural philosophies, practices, and tools that increases an organization's ability to deliver applications and services at high velocity. **GitHub Actions** give to you chance to involve with DevOps features.
+
 4. **requirements.txt** and **pyproject.toml** are used for Python packaging and dependency management. I can count a lot of reasons why Poetry over requirements.txt but please check both of them make your decision.
