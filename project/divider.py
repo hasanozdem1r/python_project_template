@@ -13,6 +13,6 @@ def divide(number1: int, number2: int) -> int:
     :return divisor number
     """
     try:
-        return number1 / number2
+        return int(number1 / number2)
     except ZeroDivisionError as error:
         return error
