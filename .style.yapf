@@ -1,5 +1,5 @@
 [style]
-based_on_style = google
+based_on_style = pep8
 SPACES_BEFORE_COMMENT = 4
 SPLIT_BEFORE_LOGICAL_OPERATOR = true
 COLUMN_LIMIT=120
