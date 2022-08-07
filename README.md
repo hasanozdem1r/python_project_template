@@ -41,4 +41,4 @@ When a potential clients or contributors visit on your project they see followin
 
 3. DevOps is the combination of cultural philosophies, practices, and tools that increases an organization's ability to deliver applications and services at high velocity. **GitHub Actions** give to you chance to involve with DevOps features.
 
-4. **requirements.txt** and **pyproject.toml** are used for Python packaging and dependency management. I can count a lot of reasons why Poetry over requirements.txt but please check both of them make your decision.
+4. **requirements.txt** and **pyproject.toml** are used for Python packaging and dependency management. I can count a lot of reasons why Poetry over requirements.txt but please check both of them to make your decision.
