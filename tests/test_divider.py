@@ -2,7 +2,7 @@
 Test usage of divider
 08-07-2022 Hasan Özdemir
 """
-from project.divider import divide
+from project_folder.divider import divide
 import pytest
 
 

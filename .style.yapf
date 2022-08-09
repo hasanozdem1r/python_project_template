@@ -1,68 +1,119 @@
 [style]
-based_on_style = pep8
-SPACES_BEFORE_COMMENT = 4
-SPLIT_BEFORE_LOGICAL_OPERATOR = true
-COLUMN_LIMIT=120
-BLANK_LINE_BEFORE_NESTED_CLASS_OR_DEF = false
 
-[default_google_codestyle_parameters]
-ALIGN_CLOSING_BRACKET_WITH_VISUAL_INDENT=False,
-ALLOW_MULTILINE_LAMBDAS=False,
-ALLOW_MULTILINE_DICTIONARY_KEYS=False,
-ALLOW_SPLIT_BEFORE_DEFAULT_OR_NAMED_ASSIGNS=True,
-ALLOW_SPLIT_BEFORE_DICT_VALUE=True,
-ARITHMETIC_PRECEDENCE_INDICATION=False,
-BLANK_LINE_BEFORE_NESTED_CLASS_OR_DEF=True,
-BLANK_LINE_BEFORE_CLASS_DOCSTRING=False,
-BLANK_LINE_BEFORE_MODULE_DOCSTRING=False,
-BLANK_LINES_AROUND_TOP_LEVEL_DEFINITION=2,
-BLANK_LINES_BETWEEN_TOP_LEVEL_IMPORTS_AND_VARIABLES=1,
-COALESCE_BRACKETS=False,
-COLUMN_LIMIT=80,
-CONTINUATION_ALIGN_STYLE='SPACE',
-CONTINUATION_INDENT_WIDTH=4,
-DEDENT_CLOSING_BRACKETS=False,
-INDENT_CLOSING_BRACKETS=False,
-DISABLE_ENDING_COMMA_HEURISTIC=False,
-EACH_DICT_ENTRY_ON_SEPARATE_LINE=True,
-FORCE_MULTILINE_DICT=False,
-I18N_COMMENT= r'#\..*',
-I18N_FUNCTION_CALL=['N_', '_'],
-INDENT_DICTIONARY_VALUE=True,
-INDENT_WIDTH=4,
-INDENT_BLANK_LINES=False,
-JOIN_MULTIPLE_LINES=False,
-NO_SPACES_AROUND_SELECTED_BINARY_OPERATORS=set(),
-SPACE_BETWEEN_ENDING_COMMA_AND_CLOSING_BRACKET=False,
-SPACE_INSIDE_BRACKETS=False,
-SPACES_AROUND_POWER_OPERATOR=False,
-SPACES_AROUND_DEFAULT_OR_NAMED_ASSIGN=False,
-SPACES_AROUND_DICT_DELIMITERS=False,
-SPACES_AROUND_LIST_DELIMITERS=False,
-SPACES_AROUND_SUBSCRIPT_COLON=False,
-SPACES_AROUND_TUPLE_DELIMITERS=False,
-SPACES_BEFORE_COMMENT=2,
-SPLIT_ARGUMENTS_WHEN_COMMA_TERMINATED=False,
-SPLIT_ALL_COMMA_SEPARATED_VALUES=False,
-SPLIT_ALL_TOP_LEVEL_COMMA_SEPARATED_VALUES=False,
-SPLIT_BEFORE_ARITHMETIC_OPERATOR=False,
-SPLIT_BEFORE_BITWISE_OPERATOR=False,
-SPLIT_BEFORE_CLOSING_BRACKET=True,
-SPLIT_BEFORE_DICT_SET_GENERATOR=False,
-SPLIT_BEFORE_DOT=False,
-SPLIT_BEFORE_EXPRESSION_AFTER_OPENING_PAREN=False,
-SPLIT_BEFORE_FIRST_ARGUMENT=False,
-SPLIT_BEFORE_LOGICAL_OPERATOR=False,
-SPLIT_BEFORE_NAMED_ASSIGNS=True,
-SPLIT_COMPLEX_COMPREHENSION=True,
-SPLIT_PENALTY_AFTER_OPENING_BRACKET=300,
-SPLIT_PENALTY_AFTER_UNARY_OPERATOR=10000,
-SPLIT_PENALTY_ARITHMETIC_OPERATOR=300,
-SPLIT_PENALTY_BEFORE_IF_EXPR=0,
-SPLIT_PENALTY_BITWISE_OPERATOR=300,
-SPLIT_PENALTY_COMPREHENSION=2100,
-SPLIT_PENALTY_EXCESS_CHARACTER=7000,
-SPLIT_PENALTY_FOR_ADDED_LINE_SPLIT=30,
-SPLIT_PENALTY_IMPORT_NAMES=0,
-SPLIT_PENALTY_LOGICAL_OPERATOR=300,
-USE_TABS=False,
+align_closing_bracket_with_visual_indent = false
+
+allow_multiline_lambdas = false
+
+allow_multiline_dictionary_keys = false
+
+allow_split_before_default_or_named_assigns = true
+
+allow_split_before_dict_value = true
+
+arithmetic_precedence_indication = false
+
+blank_line_before_nested_class_or_def = true
+
+blank_line_before_class_docstring = false
+
+blank_line_before_module_docstring = false
+
+blank_lines_around_top_level_definition = 2
+
+coalesce_brackets = false
+
+column_limit = 80
+
+continuation_align_style = SPACE
+
+continuation_indent_width = 4
+
+dedent_closing_brackets = false
+
+indent_closing_brackets = false
+
+disable_ending_comma_heuristic = false
+
+each_dict_entry_on_separate_line = true
+
+force_multiline_dict = false
+
+i18n_comment = #\..
+
+i18n_function_call = N_,_
+
+indent_dictionary_value = true
+
+indent_width = 4
+
+indent_blank_lines = false
+
+join_multiple_lines = false
+
+no_spaces_around_selected_binary_operators =
+
+space_between_ending_comma_and_closing_bracket = false
+
+space_inside_brackets = false
+
+spaces_around_power_operator = false
+
+spaces_around_default_or_named_assign = false
+
+spaces_around_dict_delimiters = false
+
+spaces_around_list_delimiters = false
+
+spaces_around_subscript_colon = false
+
+spaces_around_tuple_delimiters = false
+
+spaces_before_comment = 2
+
+split_arguments_when_comma_terminated = false
+
+split_all_comma_separated_values = false
+
+split_all_top_level_comma_separated_values = false
+
+split_before_arithmetic_operator = false
+
+split_before_bitwise_operator = false
+
+split_before_closing_bracket = true
+
+split_before_dict_set_generator = false
+
+split_before_dot = false
+
+split_before_expression_after_opening_paren = false
+
+split_before_first_argument = false
+
+split_before_logical_operator = false
+
+split_before_named_assigns = true
+
+split_complex_comprehension = true
+
+split_penalty_after_opening_bracket = 300
+
+split_penalty_after_unary_operator = 10000
+
+split_penalty_arithmetic_operator = 300
+
+split_penalty_before_if_expr = 0
+
+split_penalty_bitwise_operator = 300
+
+split_penalty_comprehension = 2100
+
+split_penalty_excess_character = 7000
+
+split_penalty_for_added_line_split = 30
+
+split_penalty_import_names = 0
+
+split_penalty_logical_operator = 300
+
+use_tabs = false
